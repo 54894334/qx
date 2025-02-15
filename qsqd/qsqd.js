@@ -1,16 +1,5 @@
-//泉舜签到
-// nz_qsqd = {'Authorization账号1','Authorization账号二'}
 // 功能：自动捕获Token + 签到 + 续期检查
-//[rewrite_local]
-//# Token捕获规则
-//^https:\/\/api\.alldragon\.com\/mkt2\/ url script-response-body dragon_all_in_one.js
-//[task_local]
-//# 每日签到任务
-//0 9 * * * dragon_all_in_one.js, tag=龙腾签到, img-url=airplane.circle.fill, enabled=true
-//[mitm]
-//hostname = api.alldragon.com
-
-const AUTH_KEY = 'nz_qsqd';
+const AUTH_KEY = 'dragon_auth';
 const CHECKIN_URL = 'https://api.alldragon.com/mkt2/checkin/checkin.json';
 const WARN_DAYS = 3; // 过期提醒阈值
 
