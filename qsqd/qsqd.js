@@ -1,6 +1,6 @@
 
 /*/[rewrite]
-+ ^https:\/\/api\.alldragon\.com.* url script-request-header https://raw.githubusercontent.com/54894334/qx/refs/heads/main/qsqd/qsqd.ini
++ ^https:\/\/api\.alldragon\.com.* url script-request-header https://raw.githubusercontent.com/54894334/qx/refs/heads/main/qsqd/qsqd.js
 [mitm]
 hostname = api.alldragon.com
  auth-capture.js*//
