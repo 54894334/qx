@@ -7,7 +7,7 @@
 0 9 * * * dragon_all_in_one.js, tag=龙腾签到, img-url=airplane.circle.fill, enabled=true
 
 [mitm]
-hostname = api.alldragon.com*/
+hostname = api.alldragon.com, servicewechat.com
 // 修正版一体化脚本 (dragon_fixed.js)
 const AUTH_KEY = 'dragon_auth';
 const CHECKIN_URL = 'https://api.alldragon.com/mkt2/checkin/checkin.json';
