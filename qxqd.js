@@ -1,4 +1,4 @@
-// 青龙脚本 - 龙腾签到
+// 青龙脚本 - 泉舜签到
 // 使用说明：需配置环境变量 ALLDRAGON_AUTH
 
 const axios = require('axios');
