@@ -10,10 +10,10 @@ hostname = api.zhumanito.cn
 
 [rewrite_local]
 # 获取Authorization
-^https:\/\/api\.zhumanito\.cn\/api\/task url script-request-header https://raw.githubusercontent.com/54894334/qx/main/qiehuan.js
+^https:\/\/api\.zhumanito\.cn\/api\/task url script-request-header https://raw.githubusercontent.com/54894334/qx/refs/heads/main/qiehuang.js
 
 [task_local]
-10 9 * * * https://raw.githubusercontent.com/YourName/54894334/qx/main/qiehuan.js, tag=茄皇任务, enabled=true
+10 9 * * * https://raw.githubusercontent.com/54894334/qx/refs/heads/main/qiehuang.js, tag=茄皇任务, enabled=true
 ====================================================================================================
 */
 
